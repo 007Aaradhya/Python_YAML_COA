@@ -19,6 +19,7 @@ To handle YAML files in Python, you will need the PyYAML library. If you don't h
 ```bash
 pip install pyyaml
 ```
+![Screenshot 1](images/ss_1.png)
 
 ## Files
 
@@ -29,7 +30,9 @@ pip install pyyaml
 
 ```
 Python_YAML_COA/
-│
+├── images/
+  │    ├── ss_1.png
+  │    └── ss_2.png
 ├── app.py            # Python script to read and filter data
 ├── students.yaml     # YAML file containing student data
 └── Python_Yaml_Use_Case.md  # Documentation file
@@ -147,6 +150,7 @@ Name: Alice, Age: 21, Major: Computer Science, GPA: 3.8
 Name: Charlie, Age: 20, Major: Physics, GPA: 3.9
 Name: Eva, Age: 21, Major: Computer Science, GPA: 3.7
 ```
+![Screenshot 2](images/ss_2.png)
 
 ## Conclusion
 
